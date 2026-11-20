@@ -95,21 +95,14 @@ cd Salon_management_system
 npm install
 ```
 
-### 2. Configure Environment Variables (Optional)
-Copy `.env.example` to `.env`:
-```env
-VITE_SUPABASE_URL=https://your-project-id.supabase.co
-VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
-```
-*(Note: If Supabase credentials are not provided, the embedded real-time broadcast engine continues to synchronize smoothly across browser tabs).*
 
-### 3. Start Development Server
+### 2. Start Development Server
 ```bash
 npm run dev
 ```
 Open your browser to `http://localhost:5173`.
 
-### 4. Build for Production
+### 3. Build for Production
 ```bash
 npm run build
 ```
