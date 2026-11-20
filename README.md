@@ -90,7 +90,7 @@ All queue state transitions, matching algorithms, and time estimations are encap
 
 ### 1. Clone & Install
 ```bash
-git clone https://github.com/your-username/Salon_management_system.git
+git clone https://github.com/Annonnymoose/Programming-Lab-Assignment.git
 cd Salon_management_system
 npm install
 ```
